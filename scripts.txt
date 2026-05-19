@@ -1,0 +1,11 @@
+=== Install Windows ===
+irm https://raw.githubusercontent.com/CruzSanchez/DayOneSetup/main/DayOneSetupWindows.ps1 | iex
+
+=== Uninstall Windows ===
+irm https://raw.githubusercontent.com/CruzSanchez/DayOneSetup/main/UninstallDevTools.ps1 | iex
+
+=== Install Mac ===
+bash <(curl -fsSL https://raw.githubusercontent.com/CruzSanchez/DayOneSetup/main/DayOneSetupMac.sh)
+
+=== Uninstall Mac ===
+bash <(curl -fsSL https://raw.githubusercontent.com/CruzSanchez/DayOneSetup/main/UninstallDevToolsMac.sh)
